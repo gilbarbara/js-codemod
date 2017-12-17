@@ -1,0 +1,20 @@
+{
+  "name": "js-codemod",
+  "version": "1.0.0",
+  "author": "Gil Barbara <gilbarbara@gmail.com>",
+  "description": "Codemod scripts to transform code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbarbara/js-codemod.git"
+  },
+  "keywords": [
+    "codemod",
+    "jscodeshift",
+    "recast"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gilbarbara/js-codemod#readme",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
