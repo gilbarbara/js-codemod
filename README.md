@@ -14,6 +14,14 @@ jscodeshift -t <codemod-script> <file>
 Use the `-d` option for a dry-run and use `-p` to print the output for
 comparison.
 
+### Included Scripts
+
+#### `epic-to-saga`
+
+```sh
+jscodeshift -t js-codemod/transforms/epic-to-saga.js <file>
+```
+
 ### Recast Options
 
 [Options to recast's printer](https://github.com/benjamn/recast/blob/master/lib/options.js) can be provided
